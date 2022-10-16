@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.nav-link {
+    color: #707070;
+}
+
+.nav-link:hover {
+    color: #FF9D00;
+}
+
+.nav-item .active {
+    color: #FF9D00 !important;
+}
+
+/* .carousel-img img {
+    width: 100%;
+} */
+#banner {
+    background-image: url("../images/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.carousel {
+    margin: 100px auto;
+    background-image: url("../images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.carousel-text h2 {
+    font-size: 41px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #1F1F1F;
+}
+
+.carousel-text p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.btn {
+    background-image: linear-gradient(to right, rgb(11, 11, 11), #0b0b0a);
+    text-transform: uppercase;
+    color: white;
+    transition: .5s ease;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+    background-color: transparent;
+}
+
+.carousel-indicators {
+    margin-bottom: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 10px;
+    background-color: #CECECE;
+    border-radius: 40%;
+    border: none;
+}
+
+.carousel-indicators .active {
+    width: 45px;
+    background-image: linear-gradient(to right, #FF9C35, #FFD019);
+}
+
+/* categories section start */
+
+
+/* product section */
+/* #product {
+    background-color: #F8F8F8;
+} */
+.card {
+    border: none;
+    box-shadow: 0px 0px 10px rgba(132, 132, 132, 0.36);
+}
+
+.card .card-img-top {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.product-cards h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.product-cards h4 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #FF9D00;
+}
+
+.card-body h5 {
+    font-size: 24;
+    font-weight: 400;
+    color: #1F1F1F;
+}
+
+.card-body p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+/* categories section start */
+.categories {
+    margin-bottom: 200px;
+}
+
+.categories .card {
+    box-shadow: 0px 0px 30px rgba(163, 161, 161, 0.279);
+}
+
+.categories .card .card-img-top {
+    width: 50%;
+    margin: 50px auto 20px;
+}
+
+.categories .card-text {
+    margin-bottom: 30px;
+}
+
+.categories .bag {
+    border-radius: 10px 20px 10px 40px;
+}
+
+.categories .beauty {
+    border-radius: 20px 10px 40px 10px;
+}
+
+.categories .shoe {
+    border-radius: 20px 10px 40px 10px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+    footer .input-group {
+        width: 90%;
+    }
+}
